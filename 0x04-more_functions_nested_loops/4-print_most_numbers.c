@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_numbers - prints num bers from 0 to 9 without std functions
+ * print_most_numbers - prints num bers from 0 to 9 without std functions
  *
  * Return: no return value
  */
