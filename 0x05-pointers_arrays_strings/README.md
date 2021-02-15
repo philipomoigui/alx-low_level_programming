@@ -1,0 +1,1 @@
+### SOlutions to Alx-Holberton systems engineering solution to pointers, arrays
