@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int _strlen - check the length of a string
+ *_strlen - check the length of a string
  *
  * @s: char variable to check the length
  *
@@ -14,5 +14,5 @@ int i;
 
 for (i = 0; s[i] != '\0'; ++i)
 
-return i;
+return (i);
 }

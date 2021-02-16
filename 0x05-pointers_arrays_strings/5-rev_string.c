@@ -13,7 +13,8 @@ void rev_string(char *s)
 int i, j;
 char *tmp;
 
-for (i = 0; s[i] != '\o'; i++);
+for (i = 0; s[i] != '\o'; i++)
+;
 
 i--;
 
