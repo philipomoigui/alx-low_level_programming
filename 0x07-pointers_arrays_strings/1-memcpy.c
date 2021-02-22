@@ -14,9 +14,11 @@ unsigned int i;
 
 for (i = 0; dest[i] != '\0'; i++)
 {
+for (i = 0; dest[i] != '\0'; i++)
+{
 if (i < n)
 dest[i] = src[i];
 }
-
+}
 return (dest)
 }
