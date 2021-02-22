@@ -20,5 +20,5 @@ if (i < n)
 dest[i] = src[i];
 }
 }
-return (dest)
+return (dest);
 }
