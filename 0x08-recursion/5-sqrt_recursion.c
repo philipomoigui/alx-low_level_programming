@@ -9,10 +9,10 @@
 
 int natural_sqrt(int a, int b);
 {
-if ((b * b) == a)
+if (b * b == a)
 return (b);
 
-if ((b * b) > a)
+if (b * b > a)
 return (-1);
 
 return (natural_sqrt(a, b + 1));
