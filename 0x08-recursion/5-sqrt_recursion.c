@@ -13,7 +13,7 @@ if (b * b == a)
 return (b);
 if (b * b > a)
 return (-1);
-return (_naturalsqrt(a, b + 1));
+return (natural_sqrt(a, b + 1));
 }
 
 /**
