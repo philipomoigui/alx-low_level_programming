@@ -8,7 +8,7 @@
 
 int str_length(char *s)
 {
-if (*s)
+if (s[0])
 return (1 + str_length(s + 1));
 else
 return (0);

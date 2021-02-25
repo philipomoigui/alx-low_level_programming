@@ -8,6 +8,15 @@
  */
 
 int natural_sqrt(int a, int b);
+{
+if ((b * b) == a)
+return (b);
+
+if ((b * b) > a)
+return (-1);
+
+return (natural_sqrt(a, b + 1));
+}
 
 /**
  * _sqrt_recursion - function to calculate the square root of a number
@@ -18,16 +27,4 @@ int natural_sqrt(int a, int b);
 int _sqrt_recursion(int n)
 {
 return (natural_sqrt(n, 1));
-}
-
-
-int natural_sqrt(int a, int b);
-{
-if ((b * b) == a)
-return (b);
-
-if ((b * b) > a)
-return (-1);
-
-return (natural_sqrt(a, b + 1));
 }
