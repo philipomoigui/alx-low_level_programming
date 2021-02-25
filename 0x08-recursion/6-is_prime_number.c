@@ -1,39 +1,31 @@
 #include "holberton.h"
 
 /**
- * is_prime_number - a function that checks if an integer is a prime number
- * @n: int to check if it is a prime
- * Return: 1 if a prime otherwise 0
+ * find_prime - finds prime number
+ * @a: number to be checked
+ * @b: number to iterate and check
+ * Return: int
  */
 
-int is_prime_number(int n)
+int find_prime(int a, int b)
 {
-int i = 2;
-
-if (n < = 2)
-return (n == 2 ? 1 : 0);
-
-if (n % b == 0)
+if (a == b)
+return (1);
+else if (a % b == 0)
 return (0);
-
-return (find_prime(n, i));
+return (find_prime(a, b + 1));
 }
 
 
 /**
- * find_prime - a function that checks if an integer is a prime number
+ * is_prime_number - checks for prime number
  * @n: integer to check
- * @i: divider
- * Return: 1 if it is a prime otherwise 0
+ * Return: int
  */
 
-int find_prime(int n, int i)
+int is_prime_number(int n)
 {
-if (n != i && n % i == 0)
+if (n <= 1)
 return (0);
-
-else if (n == 1)
-return (1);
-
-return (find_prime(n, i + 1));
+return (find_prime(n, 2));
 }
