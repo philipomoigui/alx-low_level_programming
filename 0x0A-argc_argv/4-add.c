@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - adds positive numbers
@@ -24,7 +25,7 @@ for (j = 0; argv[i][j] != '\0'; j++)
 if (!((argv[i][j] >= '0' && argv[i][j] <= '9') || argv[i][j] == '-'))
 {
 printf("Error\n");
-return (1)
+return (1);
 }
 }
 sum += atoi(argv[i]);
