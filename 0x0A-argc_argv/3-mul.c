@@ -18,7 +18,7 @@ if (argc == 3)
 for (i = 1; i < argc; i++)
 total *= atoi(argv[i]);
 
-printf("%d\n",total);
+printf("%d\n", total);
 return (0);
 }
 else
