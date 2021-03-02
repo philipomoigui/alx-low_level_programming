@@ -18,7 +18,7 @@ unsigned int i;
 char *p;
 
 if (size == 0)
-return (0);
+return (NULL);
 
 p = (char *) malloc(sizeof(char) * size);
 
